@@ -3,7 +3,7 @@ Check = "False" """
 
 
 def Checker(a, b, c):
-    if a == b or a == c:
+    if a == b or a == c or b == c:
         Check = "True"
     else:
         Check = "False"
